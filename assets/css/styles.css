@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+body {
+  border: 0;
+  padding: 0;
+
+  height: 100vh;
+  width: 100vw;  
+
+  background-color: #8139F8;
+  color: #8139F8;
+  font-family: 'Century Gothic';
+}
+
+.site-main {
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {  
+  width: 30%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  border-radius: 18px;
+}
+
+.login__title {
+  border-bottom: 2px solid #8139F8;
+}
+
+.span-msg {
+  font-size: 1.4rem;
+}
+
+.recover__pass {
+  color: #8139F8;
+}
+
+.btn-login {
+  padding: 4px 18px;
+
+  background-color: #8139F8;
+  font-size: 1.3rem;
+}
+
+.register__link {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.register__link:hover {
+  color: #ffff11;
+}
+
+.site-footer {
+  height: 10vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 100%;
+}
