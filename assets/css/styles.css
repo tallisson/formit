@@ -13,7 +13,7 @@ body {
 }
 
 .site-main {
-  height: 90vh;
+  height: 95vh;
 
   display: flex;
   flex-direction: column;
@@ -58,14 +58,30 @@ body {
 }
 
 .site-footer {
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-size: 0.8rem;
 }
 
 .footer-content {
   width: 100%;
+
+  color: #ffffff;
+}
+
+@media (max-width: 950px) {
+  .login {  
+    width: 50%;
+  }
+}
+
+@media (max-width: 780px) {
+  .login {  
+    width: 80%;
+  }
 }
