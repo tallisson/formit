@@ -1,2 +1,3 @@
-# formit
-Site para Criar e Executar Questionário de Maneira Rápida e Divertida :)
+# FORMIT
+
+**A site for you to create and execute of quickly and funny way its Surveies**
