@@ -28,4 +28,4 @@
 
 FORMIT was developmented in order to be web plataform to create gamified surveys that can to assist persons with the design of a objective questions set (choice mutiple questions) which apply likert scale or other similar scale for evaluate papers, courses, quality of services, etc.
 
-This project was performed by a student group of Class III of the Informatics Technical Course on Institute Federal of Science and Technology of Maranhão State. The group is formed by three components: Davi, João Batista, Rebeca, Vitória and Vinycius, on supervision of teachers Thiago Allisson and Mayana.
+This project was performed by a student group of Class III of the Informatics Technical Course on Institute Federal of Science and Technology of Maranhão State. The group is formed by three components: Anna Cláudia, Davi, Jackeline, Lívya, and Vinycius, on supervision of teachers Thiago Allisson and Mayana.
