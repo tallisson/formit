@@ -13,8 +13,35 @@
   </head>
   <body class="site">
     <!-- Main -->
-    <main class="main">
-      
+    <main class="main main-login">      
+      <div class="main-body">
+
+        <div class="main-header pb-2">      
+          <a href="index.html" title="Login FORMIT">
+            <img class="img-fluid pb-2" src="assets/imgs/logo_03.png" alt="Logo FORMIT" width="240">
+          </a>
+          <h4>Digite seu Usuário ou E-mail</h4>                                        
+        </div>
+
+        <fieldset>
+          <form class="form pt-2" action="signin" method="POST">
+            <div class="form-group">
+              <input type="text" class="form-control well" id="login"
+                placeholder="Usuário"
+                required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control well" id="email"
+                placeholder="Email"
+                required>
+            </div>
+
+            <div class="text-center">
+              <button type="Login" class="btn btn-primary btn-formit">Senha</button>                
+            </div>
+          </form>
+        </fieldset>
+      </div>
     </main>
 
     <!-- Footer -->

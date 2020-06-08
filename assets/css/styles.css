@@ -67,24 +67,25 @@
 .link-formit:hover {
   color: yellow;
 }
-
-@media (max-width: 760px) {
-  .main-body {
-    width: 70%;
-  }
-}
-
 .text-formit {
   color: #8139F8;
 }
-
 .signup {
   margin-top: 5px;
 
   color: #ffffff;
   font-size: 1.2rem;
 }
-
 .footer > div {
   font-size: 0.8rem;
+}
+@media (max-width: 760px) {
+  .main-body {
+    width: 70%;
+  }
+}
+@media (max-width: 210px) {
+  .btn-formit {
+    font-size: 1rem;
+  }
 }
