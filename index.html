@@ -8,79 +8,65 @@
     <meta name="description" content="Site para Criar e Executar Questionários (Surveys) Gamificados">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/imgs/favicon.ico">
   </head>
-  <body>
+  <body class="site">
     <!-- Main -->
-    <main class="site_main">
+    <main class="main">
+      <div class="main-body">
 
-      <section class="main_section bg-light px-2 mt-2">
-
-        <div class="login__title">          
+        <div class="main-header">          
           <figure>
             <div class="text-center">
-              <!--<span class="text-center span-msg">Bem-vindo!</span>-->
-              <img class="img-fluid rounded" src="assets/imgs/logo_03.png" alt="Logo FormIt" width="240">
+              <img class="img-fluid" src="assets/imgs/logo_03.png" alt="Logo FORMIT" width="240">
             </div>
           </figure>
         </div>
 
-        <div class="login__text py-4">
+        <div class="main-text">
           <fieldset>
-            <form>
-
-              <div class="login__input">
-                <div class="form-group">
-                  <input type="text" class="form-control well" id="login"
-                    placeholder="Usuário"
-                    required>
-                </div>
-                <div class="form-group">
-                  <input type="password" class="form-control well" id="password" 
-                    placeholder="Senha"
-                    required>
-                </div>
-                <div>
-                  <p>
-                    <a href="#" title="Link para Recuperar Senha" class="recover__pass">
-                      *Esqueceu a senha?
-                    </a>
-                  </p>
-                </div>
+            <form class="form">
+              <div class="form-group">
+                <input type="text" class="form-control well" id="login"
+                  placeholder="Usuário"
+                  required>
               </div>
-
+              <div class="form-group">
+                <input type="password" class="form-control well" id="password" 
+                  placeholder="Senha"
+                  required>
+              </div>
+              <div>
+                <p>
+                  <a href="#" title="Link para Recuperar Senha" class="text-formit">
+                    *Esqueceu a senha?
+                  </a>
+                </p>
+              </div>
+              
               <div class="text-center">
                 <button type="Login" class="btn btn-primary btn-login">Login</button>                
               </div>
             </form>
           </fieldset>
         </div>
+      </div>
 
-      </section>
-
-
-      <section class="register my-2">
-        
-        <div>
-            <a class="register__link" href="register.html" title="Link para Registro">
-              Não tem uma conta? Cadastre-se!
-            </a>
-        </div>
-        
-      </section>
-
+      <div class="signup">
+        <a class="link-formit" href="signup.html" title="Link para Registro">
+          Não tem uma conta? Cadastre-se!
+        </a>
+      </div>
     </main>
 
     <!-- Footer -->
-    <footer class="site-footer">
-      
-      <div class="footer-content text-center">
+    <footer class="footer">      
+      <div class="text-light text-center">
         &copy; FORMIT - 2020 <i class="fa fa-heart" aria-hidden="true"></i> 
           IFMA - Barra do Corda
       </div>
-
-    </footer>
+    </footer>    
 
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

@@ -1,90 +1,74 @@
 @charset 'utf-8';
 
-body {
-  border: 0;
-  padding: 0;
-
-  height: 100vh;
-  width: 100vw;  
+.site {
+  min-height: 100vh;
 
   background-color: #8139F8;
   color: #8139F8;
   font-family: 'Century Gothic';
+  font-size: 1.1rem;
 }
 
-.site_main {
-  height: 95vh;
-
+.main {  
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding: 20px 0;
+  margin-bottom: 5px;
 }
 
-.main_section {  
-  width: 30%;
+.main-body {
+  padding: 20px;
   border-radius: 18px;
 
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width: 35%;
+
+  background-color: #ffffff;
 }
 
-.login__title {
-  padding-bottom: 23px;
-  border-bottom: 2px solid #8139F8;
+.main-header {
+  border-bottom: 3px solid #8139F8;
 }
 
-.span-msg {
-  font-size: 1.4rem;
-}
-
-.recover__pass {
-  color: #8139F8;
+.main-text {
+  padding-top: 15px;
 }
 
 .btn-login {
-  padding: 4px 18px;
-
-  background-color: #8139F8;
-  font-size: 1.3rem;
-}
-
-.register__link {
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-.register__link:hover {
-  color: #ffff11;
-}
-
-.site-footer {
-  height: 5vh;
-  width: 100vw;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-size: 0.8rem;
-}
-
-.footer-content {
   width: 100%;
 
+  font-size: 1.2rem;
+  background-color: #8139F8;
+}
+
+.link-formit {
   color: #ffffff;
 }
 
-@media (max-width: 950px) {
-  .main_section {  
-    width: 50%;
+.link-formit:hover {
+  color: yellow;
+}
+
+@media (max-width: 760px) {
+  .main-body {
+    width: 70%;
   }
 }
 
-@media (max-width: 780px) {
-  .main_section {  
-    width: 80%;
-  }
+.text-formit {
+  color: #8139F8;
 }
 
-/* Styles for Register */
+.signup {
+  margin-top: 5px;
+
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.footer > div {
+  font-size: 0.8rem;
+}
