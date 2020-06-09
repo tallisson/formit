@@ -19,4 +19,15 @@ class Web {
   public function forgotPass($data) {
     echo $this->view->render('web/forgot-pass', ['title' => 'FORMIT | Recuperar Senha']);
   }
+
+  public function signup($data) {
+    echo $this->view->render('web/signup', ['title' => 'FORMIT | Registre-se']);
+  }
+
+  public function error($data) {
+    echo $this->view->render('web/error', [
+      'title' => 'FORMIT | Registre-se',
+      'data' => $data
+    ]);
+  }
 }

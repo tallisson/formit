@@ -10,7 +10,11 @@ $router->namespace("Source\App");
 // Settings for Default Controller
 $router->group(null);
 $router->get("/", "Web:home");
+$router->get("/index", "Web:home");
 $router->get("/forgot-pass", "Web:forgotPass");
+$router->get("/signup", "Web:signup");
+$router->post("/signin", "Web:signin");
+$router->post("/signup", "Web:signup");
 
 // Error Controller
 $router->group("ooops");
