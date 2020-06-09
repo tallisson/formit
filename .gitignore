@@ -1,1 +1,5 @@
 Telas-Formit/*
+composer-update
+composer.lock
+vendor/*
+.htaccess

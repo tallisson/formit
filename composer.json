@@ -1,0 +1,29 @@
+{
+  "name": "FORMIT",
+  "description": "Gamified Survey",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "formit",
+      "email": "formit_ifma_bdc@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Routes.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "^1.0",
+    "coffeecode/router": "1.0.*",        
+    "league/plates": "3.*"
+  }
+}
