@@ -16,6 +16,7 @@
 
 2. Backend:
 + PHP;
++ PHP Packages: coffeecode/datalayer, coffeecode/router and league/plates;
 + MySQL;
 
 3. Tools:
@@ -23,6 +24,7 @@
 + [Xampp](https://www.apachefriends.org/pt_br/index.html) - Apache Server, Management of HTTP Server, MySQL database administration;
 + Git - Version Controller;
 + [GitHub](https://github.com/) - Host service for version control of source code with git.
++ [Composer](https://getcomposer.org/) - Dependency Manager to PHP.
 
 ## Description
 
