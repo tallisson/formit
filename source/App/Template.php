@@ -11,7 +11,7 @@ class Template
 	{
 		if(self::$view == null)
 		{
-			self::$view = new Engine(TPL_DIR);
+			self::$view = new Engine(TPL_DIR, 'html');
 		}
 
 		return self::$view;

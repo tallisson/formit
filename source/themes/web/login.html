@@ -1,0 +1,48 @@
+<?php $this->layout('template', ['title' => $title]) ?>
+
+<main class="main main-login">
+  <div class="main-body">
+
+    <div class="main-header">          
+      <figure>
+        <div class="text-center">
+          <img class="img-fluid" src="<?=url('assets/imgs/logo_03.png')?>" alt="Logo FORMIT" width="240">
+        </div>
+      </figure>
+    </div>
+
+    <div class="main-text">
+      <fieldset>
+        <form class="form" action="<?=url('web/signin')?>" method="POST">
+          <div class="form-group">
+            <input type="text" class="form-control well" id="login"
+              placeholder="Usuário"
+              required>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control well" id="password" 
+              placeholder="Senha"
+              required>
+          </div>
+          <div>
+            <p>
+              <a href="<?=url('web/forgot-pass')?>" title="Link para Recuperar Senha" class="text-formit">
+                *Esqueceu a senha?
+              </a>
+            </p>
+          </div>
+          
+          <div class="text-center">
+            <button type="Login" class="btn btn-primary btn-formit">Login</button>                
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </div>
+
+  <div class="signup">
+    <a class="link-formit" href="<?=url('web/signup')?>" title="Link para Registro">
+      Não tem uma conta? Cadastre-se!
+    </a>
+  </div>
+</main>

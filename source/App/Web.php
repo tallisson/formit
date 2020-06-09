@@ -13,6 +13,6 @@ class Web {
 
   public function home($data) 
   {    
-    echo 'Meus ovos!';
+    echo $this->view->render('web/login', ['title' => 'FORMIT | Seus Questionário de Maneira Rápida e Divertida :)']);
   }
 }
